@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+
+  border: 2px solid black;
+
+}
+.logo{
+  width: 25%;
+  border: 2px dashed black;
+  float:left;
+}
+nav {
+  background-color: lightgrey;
+  padding: 10px;
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  padding-right: 30px;
+}
